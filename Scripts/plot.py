@@ -24,6 +24,10 @@ def barplot_stakced(data, x, y, hue, hue_order=None, order=None, ax=None):
     Output:
         ax: matplotlib.pyplot.ax
     """
+    import pandas as pd
+    import numpy as np
+    from matplotlib import pyplot as plt
+    
     if ax == None:
         fig, ax = plt.subplots()
         
